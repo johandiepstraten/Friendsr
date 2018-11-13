@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/GridView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/FriendPicture"
+        android:layout_width="match_parent"
+        android:layout_height="322dp"
+        app:srcCompat="@drawable/jan" />
+
+    <TextView
+        android:id="@+id/FriendName"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:gravity="center" />
+
+</LinearLayout>
