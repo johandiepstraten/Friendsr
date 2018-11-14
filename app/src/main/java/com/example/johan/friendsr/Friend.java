@@ -1,12 +1,12 @@
 package com.example.johan.friendsr;
 
 import java.io.Serializable;
-
+// initialize friend class
 public class Friend implements Serializable {
     private String name, bio;
     private int drawableId;
     private float rating;
-
+// make name, bio and picture of instance available outside this class.
     public Friend(String name, String bio, int drawableId) {
         this.name = name;
         this.bio = bio;

@@ -8,16 +8,17 @@
     tools:context=".MainActivity">>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/Profile"
         android:layout_width="wrap_content"
         android:layout_height="313dp"
         android:layout_gravity="center"
         android:layout_weight="2"
+        android:paddingTop="12dp"
         app:srcCompat="@drawable/jan" />
 
     <RatingBar
         android:id="@+id/ratingBar"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
@@ -30,6 +31,9 @@
         android:layout_height="40dp"
         android:layout_weight="1"
         android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#303F9F"
+        android:textSize="32dp"
         android:text="TextView" />
 
     <TextView

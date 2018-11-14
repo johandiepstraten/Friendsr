@@ -8,8 +8,9 @@
 
     <ImageView
         android:id="@+id/FriendPicture"
-        android:layout_width="match_parent"
+        android:layout_width="322dp"
         android:layout_height="322dp"
+        android:layout_gravity="center_horizontal"
         app:srcCompat="@drawable/jan" />
 
     <TextView

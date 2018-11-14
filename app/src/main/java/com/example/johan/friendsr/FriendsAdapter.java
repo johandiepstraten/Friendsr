@@ -19,12 +19,13 @@ public class FriendsAdapter extends ArrayAdapter<Friend> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+
+//        Make sure you can scroll through list of friends in main page
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.grid_item, parent, false);
         }
         Friend currentFriend = friends.get(position);
         String friend_name = currentFriend.getName();
-//        Drawable friend_picture = getContext().getDrawable(currentFriend.getDrawableId());
         ((TextView) convertView.findViewById(R.id.FriendName)).setText(friend_name);
         ((ImageView) convertView.findViewById(R.id.FriendPicture)).setImageResource(currentFriend.getDrawableId());
         return convertView;
